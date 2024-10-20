@@ -1,0 +1,50 @@
+body{
+    display: grid;
+    margin: 0px;
+    place-items: center;
+    height: 80vh;
+    background-image: linear-gradient(to left, rgb(167, 190, 196),rgb(164, 165, 143));
+    
+}
+
+h1{
+    margin-top: 0px;
+    padding-top: 0px;
+    color: rgb(3, 15, 48);
+    text-decoration-line:underline;
+}
+.box{
+box-shadow: 2px 12px 17px 3px black;
+padding: 25px;
+text-align: center;
+border-radius: 20px;
+font-weight: bold;
+font-size: 20px;
+}
+#num{
+    margin-top: 13px;
+padding: 5px 16px;
+border: 1px solid rgb(17, 5, 83);
+text-align: center;
+border-radius: 5px;
+width: 160px;
+}
+.box button{
+padding: 10px 19px;
+border: none;
+background-color: rgb(3, 31, 58);
+color: white;
+border-radius: 10px;
+margin-top: 8px;
+font-weight: bold;
+}
+.box button:hover{
+background-color: rgb(2, 2, 88);
+}
+
+/* display the result */
+#result{
+    margin-top: 20px;
+    color: rgb(48, 2, 29);
+    font-weight: bold;
+}
